@@ -179,7 +179,7 @@ Athens|1
 ---
 
 # SQL and Python (2)
-- sqlite-demo.py go through line by line
+- sqlite-demo.py go through line by line (https://github.com/gosom/pydata-intro-sql)
 - sqlite-demo.py --num 1000000 # inserts 1.000.000 rows into table
 - sample queries (city with most participants, participants knowing sql and python based in Limassol)
 - Indexes (next talk :+1:)
@@ -204,7 +204,7 @@ LinkedIn
 ---
 
 # References
-
+- https://github.com/gosom/pydata-intro-sql
 - https://en.wikipedia.org/wiki/SQL
 - https://en.wikipedia.org/wiki/Relational_algebra
 - https://en.wikipedia.org/wiki/Relational_database_management_system
