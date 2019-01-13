@@ -102,7 +102,7 @@ def main():
 
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO)
 
-    conn = sqlite3.connect('participants.db')
+    conn = sqlite3.connect(args.db)
     create_tables(conn)
     cursor = conn.cursor()
     for p in create_random(args.num):
